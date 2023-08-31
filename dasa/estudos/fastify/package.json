@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@fastify/mongodb": "^7.0.0",
+    "@google-cloud/pubsub": "^4.0.2",
+    "@types/node": "^20.5.7",
+    "fastify": "^4.22.0",
+    "fastify-cli": "^5.8.0",
+    "fastify-google-pubsub": "^1.0.1",
+    "fastify-plugin": "^4.5.1",
+    "nock": "^13.3.3",
+    "superagent": "^8.1.2",
+    "typescript": "^5.2.2"
+  }
+}
