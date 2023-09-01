@@ -1,0 +1,22 @@
+{
+  "name": "ts-fastyfi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "tsc -w & nodemon dist/index.js"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^4.0.2",
+    "fastify": "^4.22.1",
+    "fluent-json-schema": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "typescript": "^5.2.2"
+  }
+}
